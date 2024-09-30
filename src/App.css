@@ -1,38 +1,261 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cards {
+  margin: auto;
+  position: relative;
+  height: 1000px;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  position: absolute;
+  width: 356px;
+  height: 456px;
+  border-radius: 29.8px;
+  color: #a32c2c;
+  font-weight: 600;
+  font-size: 70px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-1 {
+  top: 0;
+  left: 0;
+  background: #67e8a5;
+}
+.card-2 {
+  top: 60px;
+  left: 120px;
+  background: #8db01a;
+}
+.card-3 {
+  top: 120px;
+  left: 240px;
+  background: #ea0909;
+}
+.card-4 {
+  top: 180px;
+  left: 360px;
+  background: #0989ea;
+}
+.card-5 {
+  top: 240px;
+  left: 480px;
+  background: #ea09b6;
+}
+.card-6 {
+  top: 300px;
+  left: 600px;
+  background: #09ea5f;
+}
+.card-7 {
+  top: 360px;
+  left: 720px;
+  background: #678839;
+}
+.card-8 {
+  top: 420px;
+  left: 840px;
+  background: #7459eb;
+}
+.card-9 {
+  top: 480px;
+  left: 960px;
+  background: #6cbbc2;
+}
+.card-10 {
+  top: 540px;
+  left: 1080px;
+  background: #ce1010;
+}
+/* font-family: "Lato", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+
+.headerText {
+  font-size: 44px;
+  font-weight: 600;
+  max-width: 530px;
+  text-align: end;
+  font-family: "Poppins", sans-serif;
+  line-height: 60px;
+}
+.headerText span {
+  color: #ee1b30;
+  font-family: "Poppins", sans-serif;
+}
+.subText {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 378px;
+  text-align: end;
+  font-family: "Lato", sans-serif;
+}
+.headerText2 {
+  font-size: 44px;
+  font-weight: 600;
+  max-width: 530px;
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  line-height: 60px;
+}
+.headerText2 span {
+  color: #ee1b30;
+  font-family: "Poppins", sans-serif;
+}
+.headerText3 {
+  font-size: 44px;
+  font-weight: 600;
+  max-width: 789px;
+  text-align: end;
+  font-family: "Poppins", sans-serif;
+  line-height: 60px;
+}
+.headerText3 span {
+  color: #ee1b30;
+  font-family: "Poppins", sans-serif;
+}
+.subText2 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 378px;
+  text-align: start;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  box-shadow: -0px -2px 7px 1px #ee1b306a;
+}
+.seeDemoBtn2 {
+  background: #ee1b30;
+  border-radius: 36px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+  height: 39px;
+  width: 161px;
   color: white;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+.seeDemoBtn {
+  background: #ee1b30;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 39px;
+  width: 161px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  font-family: "Lato", sans-serif;
+}
+.ulelm li {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+.ulelm li:hover {
+  color: #ee1b30;
 }
 
-.App-link {
-  color: #61dafb;
+.footerText {
+  font-size: 39px;
+  font-weight: bold;
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin-top: 93px;
+  text-align: center;
+  width: 700px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fsubtext {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(247, 247, 247);
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.letsTalk {
+  font-size: 15px;
+  font-weight: bold;
+  color: #003db8;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  background: white;
+  height: 42px;
+  width: 132px;
+  border-radius: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.boxshadonw {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ftd {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  font-family: "Lato", sans-serif;
+}
+.fth {
+  font-size: 15px;
+  font-weight: 400;
+  color: #262626;
+  font-family: "Lato", sans-serif;
+  text-align: start;
+}
+.myInput {
+  width: 304px;
+  height: 44px;
+  border-bottom: 1px solid #9f9f9f;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px 30px;
+  color: #757575;
+  outline: none;
+  margin-top: 14px;
+  font-family: "Lato", sans-serif;
+}
+.myInput::placeholder {
+  color: #757575;
+}
+.conBtn {
+  height: 42px;
+  width: 172px;
+  background: #003db8;
+  border-radius: 39px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+.copyRight {
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+  font-family: "Lato", sans-serif;
 }
